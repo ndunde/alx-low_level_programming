@@ -2,10 +2,9 @@
 #include<time.h>
 #include<stdio.h>
 /**
- * main - n is a number either less or greater than 0
- * Description - if n is equal to zero we print 0
- * Description - else if its less than zero its negative
- * 
+ * main -entry point
+ *
+ * description - else if its less than zero its negative
  * Return - the value is always (0) success
  */
 int main(void) 
