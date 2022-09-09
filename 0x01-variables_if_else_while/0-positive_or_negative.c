@@ -4,7 +4,7 @@
 
 /**
  *main: n is assigned to be a variable number
- *Description : n is positive > zero and negative if< zero
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
