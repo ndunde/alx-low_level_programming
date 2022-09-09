@@ -1,13 +1,14 @@
 #include<stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
+#include<time.h>
+#include<stdio.h>
 /**
- *main: n is assigned to be a variable number
- *
- *Return: Always 0 (Success)
+ * main - n is a number either less or greater than 0
+ * Description - if n is equal to zero we print 0
+ * Description - else if its less than zero its negative
+ * Description - else if its greater than zero its positive
+ * Return - the value is always (0) success
  */
-int main(void)
+int main(void) 
 {
 		
 		int n;
