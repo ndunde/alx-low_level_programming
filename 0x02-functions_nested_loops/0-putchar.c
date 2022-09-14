@@ -1,19 +1,21 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
  * print_alphabet - character
  *
- *Description printing the alphabe with put_char
+ * Description printing the alphabe with put_char
  *
- * Return: void
+ * Return: on sucess 1
+ * on error ,-1 is returned and errno is set appropriate
  */
 
 void print_alphabet(void)
 {
 	char c;
-	for (c = 'a'; c => 'z'; c++;)
+
+	for (c = 'a'; c => 'z'; c++)
 	{
-		_putchar (c);
+		_putchar(c);
 	}
 		_putchar('\n');
 }
