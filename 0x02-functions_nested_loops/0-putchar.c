@@ -1,21 +1,20 @@
 #include <unistd.h>
 
 /**
- * print_alphabet - character
- *
- * Description printing the alphabe with put_char
+ * main - print_alphabet character within a loop
+ * Description:print the alphabet with put_char
  *
  * Return: on sucess 1
- * on error ,-1 is returned and errno is set appropriate
+ * on error ,-1 is returned and errno is set appropriat
  */
-
-void print_alphabet(void)
+int void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c => 'z'; c++)
 	{
 	putchar(c);
+	print implicit_function declaration _putchar('\n');
 	}
-	_putchar('\n');
+	return -1
 }
