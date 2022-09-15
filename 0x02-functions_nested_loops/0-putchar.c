@@ -1,21 +1,21 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - print_alphabet character within a loop
- * Description:print the alphabet with put_char
- *
- * Return: always 0 sucess
+ * main - print putchar
+ * Return: always 0
  */
-void main(print_alphabet)
-
+int main(void)
 {
-	char c;
-
-	for (c = 'a'; c => 'z'; c++)
-	{
-	putchar(c)
-		_putchar('\n');
-	}
-
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
+	_putchar(\n);
+}
 	return(0)
 }
+
